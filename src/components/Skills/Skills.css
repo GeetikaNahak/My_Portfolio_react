@@ -1,0 +1,150 @@
+.skills{
+    list-style: none;
+    padding:0;margin:0;
+}
+.skills{
+    background:#33333388;
+   
+}
+#skills{
+    margin-bottom: 80px;
+    padding-top:40px;
+}
+#skills h1{
+    border-bottom: 3px solid white;
+    border-bottom-style: groove;
+    padding :10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+}
+h3{
+    margin:5px;
+    font-size: .9rem;
+}
+.skills{
+    width:500px;
+    margin: 40px auto;
+   
+
+    color:#fff;
+    padding:10px;
+    box-shadow:0 14px 28px rgba(11, 12, 34, 0.25),0 10px 10px rgba(34, 27, 47, 0.22);
+    border-radius: 10px;
+    
+}
+.skills li{
+    margin:20px 0;
+    padding:4px;
+}
+.bar{
+    background:#353b48;
+    display: block;
+    height: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(4, 4, 4, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);;
+}
+.bar span{
+    height:20px;
+    float:left;
+    background:linear-gradient(135deg,rgb(43, 0, 236)0%, rgb(103, 160, 252)100%);
+    
+}
+.html{
+    width:70%;
+    animation-name: html;
+    animation-duration: 2s;
+}
+@keyframes html{
+    from{width:0%}
+    t0{width:70%}
+}
+.css{
+    width:70%;
+    animation-name: css;
+    animation-duration: 2s;
+}
+@keyframes css{
+    from{width:0%}
+    t0{width:70%}
+}
+.js{
+    width:67%;
+    animation-name: js;
+    animation-duration: 2s;
+}
+@keyframes js{
+    from{width:0%}
+    t0{width:67%}
+}
+.react{
+    width:45%;
+    animation-name: react;
+    animation-duration: 2s;
+}
+@keyframes react{
+    from{width:0%}
+    t0{width:45%}
+}
+.node{
+    width:45%;
+    animation-name: node;
+    animation-duration: 2s;
+}
+@keyframes node{
+    from{width:0%}
+    t0{width:45%}
+}
+.jquery{
+    width:30%;
+    animation-name: jquery;
+    animation-duration: 2s;
+}
+@keyframes jquery{
+    from{width:0%}
+    t0{width:30%}
+}
+.c{
+    width:70%;
+    animation-name: c;
+    animation-duration: 2s;
+}
+@keyframes c{
+    from{width:0%}
+    t0{width:70%}
+}
+.cpp{
+    width:70%;
+    animation-name: cpp;
+    animation-duration: 2s;
+}
+@keyframes cpp{
+    from{width:0%}
+    t0{width:70%}
+}
+.java{
+    width:40%;
+    animation-name: java;
+    animation-duration: 2s;
+}
+@keyframes java{
+    from{width:0%}
+    t0{width:40%}
+}
+.py{
+    width:40%;
+    animation-name: py;
+    animation-duration: 2s;
+}
+@keyframes py{
+    from{width:0%}
+    t0{width:40%}
+}

@@ -1,0 +1,39 @@
+#projects{
+    background-color: rgba(116, 116, 116, 0.148);
+    padding-top: 60px;
+    margin: 10px 0;
+}
+
+
+.projects{
+   width:80%;
+   margin: 70px auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   padding-bottom: 100px;
+}
+
+.title{
+ 
+    border-bottom: 3px solid white;
+    border-bottom-style: groove;
+    padding :10px;
+    margin:  auto;
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+    
+  
+   
+   
+  }
+
+  .item{
+    display: block;
+    margin: 20px 20px;
+    margin-left: 40px;
+    width: 95%;
+}

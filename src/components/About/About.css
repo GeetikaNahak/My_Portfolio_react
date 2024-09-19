@@ -1,0 +1,40 @@
+.about{
+
+  text-align: center;
+  justify-content: space-around;
+  
+  align-items: center;
+  font-size: 1.13em;
+ 
+
+
+padding-top: 40px;
+padding-bottom: 125px;
+  
+}
+#about{
+  margin-top: 100px;
+ 
+  background-color: rgba(116, 116, 116, 0.148);
+}
+
+.content{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+margin: 50px;
+}
+.about p{
+  
+  line-height: 2.5rem;
+  text-align: justify;
+  width: 80%;
+ 
+}
+
+#image2{
+  height: 350px;
+  width: 350px;
+  border-radius: 20px;
+margin: 20px;
+}

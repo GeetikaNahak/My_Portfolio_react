@@ -1,0 +1,73 @@
+
+button{
+  background-color: black;
+  border: none;
+  color: white;
+}
+#profile-image {
+  border-radius: 50%;
+  height: 270px;
+  width: 270px;
+  margin-top: 50px;
+  margin-top: 50px;
+}
+.hero{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+#profile-image{
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.hero h1{
+  font-size: 39px;
+}
+.hero h1 span{
+ 
+  
+
+  font-size: 2.4rem;
+  background: linear-gradient(to right,#ded155, #fb4c8f, #ff8b3e,#c94bc9, #ded155);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+} 
+.hero p{
+
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  text-align: center;
+}
+.hero-action{
+  
+  padding :10px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 40%;
+}
+.bton{
+  font-size: 1rem;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding:10px;
+  width: 100px;
+  margin: 0 13px;
+}
+.bton:hover{
+  font-size: 1.01rem;
+  
+  /* background-color: rgba(255, 255, 255, 0.514); */
+  background:linear-gradient(to right,#307ed8, #1b198e);
+  color: #ecffff;
+}
+a{
+  text-decoration: none;
+}

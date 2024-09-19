@@ -1,0 +1,7 @@
+.circular{
+    display: -webkit-inline-flex;
+    height: 100px;
+    width: 100px;
+    color: white;
+   
+}

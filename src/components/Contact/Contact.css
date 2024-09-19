@@ -1,0 +1,48 @@
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+   align-items: center;
+    text-align: center;
+}
+input,textarea{
+    display: block;
+    padding: 10px ;
+    width: 80%;
+    margin: 20px auto;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+
+#submit{
+    display: inline;
+   
+    padding: 10px;
+    background-color: rgba(206, 240, 244, 0.862);
+    color: #000;
+    font-weight: 700;
+    border-radius: 5px;
+    position: relative;
+}
+#submit:hover{
+    background:linear-gradient(to right,#191841, #1b198e);
+  color: #ecffff;
+}
+form{
+    padding: 1px;
+    width: 400px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+
+}
+.icons{
+    display: block;
+    width: 100%;
+    text-align: left;
+    align-items: center;
+}
+.icons h2{
+    padding: 20px 0;
+   
+}
